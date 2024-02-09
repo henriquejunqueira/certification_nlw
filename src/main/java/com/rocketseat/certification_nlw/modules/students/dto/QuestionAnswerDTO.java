@@ -1,15 +1,18 @@
 package com.rocketseat.certification_nlw.modules.students.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VerifyIfHasCertificationDTO {
+@Builder
+public class QuestionAnswerDTO {
     
-    private String email;
-    private String technology;
+    private String questionID;
+    private String alternativeID;
+    private boolean isCorrect;
 
 }
