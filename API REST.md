@@ -13,3 +13,7 @@ Os tipos de parâmetros:
 - Body - {}
 - Query Params - http://localhost:8085/users?nome=Henrique&idade=34 OPCIONAIS
 - Parâmetros de rotas: http://localhost:8085/users/{nome}/{idade}
+
+ORM -> Object Relational Mapper
+
+Repositório (Repository) -> Interagir com o banco de dados.
