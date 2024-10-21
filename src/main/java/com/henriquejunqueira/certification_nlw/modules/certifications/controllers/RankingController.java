@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.henriquejunqueira.certification_nlw.modules.certifications.useCases.Top10RankingUseCase;
 import com.henriquejunqueira.certification_nlw.modules.students.entities.CertificationStudentEntity;
-import com.henriquejunqueira.certification_nlw.modules.students.repositories.CertificationStudentRepository;
 
 @RestController
 @RequestMapping("/ranking")
